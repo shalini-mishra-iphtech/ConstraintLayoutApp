@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-                // Finding Views by ID
+        // Finding Views by ID
                 val followButton = findViewById<Button>(R.id.followButton)
                 val messageButton = findViewById<Button>(R.id.messageButton)
 
